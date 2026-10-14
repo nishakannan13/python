@@ -62,4 +62,17 @@ while i<=n:
 print("Factorial:",fact)
 O/P:Enter a number:5
 Factorial: 120
+n=int(input("Enter a number:"))
+count=0
+7.prime or not:
+for i in range(1,n+1):
+    if n%1==0:
+        count+=1
+if count==2:
+    print("Not a Prime")
+else:
+    print("Prime")
+O/P:Enter a number:3
+Prime
+
 
