@@ -94,4 +94,15 @@ else:
   print("Not a neon number")
 O/P:Enter a number:1
 Neon number
-
+10.check nos is perfect or not:
+n=int(input("Enter a number:"))
+s=0
+for i in range(1,n):
+  if n%i==0:
+    s+=i
+if s==n:
+  print("Perfect number")
+else:
+  print("Not a Perfect number")
+O/P:Enter a number:69087
+Not a Perfect number
