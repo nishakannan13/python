@@ -84,5 +84,14 @@ else:
 O/P:
 Enter a number:25
 Automorphic number
-
+9.check a number is neon number or not:
+n=int(input("Enter a number:"))
+sq=n*n
+s=sum(int(d)for d in str(sq))
+if s==n:
+  print("Neon number")
+else:
+  print("Not a neon number")
+O/P:Enter a number:1
+Neon number
 
