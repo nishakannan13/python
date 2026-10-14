@@ -106,3 +106,11 @@ else:
   print("Not a Perfect number")
 O/P:Enter a number:69087
 Not a Perfect number
+11.Palindrome or not:
+n=input("Enter a number:")
+if n==n[::-1]:
+  print("Palindrome number")
+else:
+  print("Not a Palindrome")
+O/P:Enter a number:7
+Palindrome number
