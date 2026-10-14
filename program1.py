@@ -74,5 +74,15 @@ else:
     print("Prime")
 O/P:Enter a number:3
 Prime
+8.check automorphic number or not:
+n=int(input("Enter a number:"))
+sq=n*n
+if str(sq).endswith(str(n)):
+  print("Automorphic number")
+else:
+  print("Not an Automorphic number")
+O/P:
+Enter a number:25
+Automorphic number
 
 
