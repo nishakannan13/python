@@ -114,3 +114,11 @@ else:
   print("Not a Palindrome")
 O/P:Enter a number:7
 Palindrome number
+12.Duck number:
+n=input("Enter a number:")
+if '0' in n[1:]:
+  print("Duck num")
+else:
+  print("Not a Duck num")
+O/P:Enter a number:1023
+Duck num
