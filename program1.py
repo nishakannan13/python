@@ -137,3 +137,20 @@ else:
   print("Happy Number")
 O/P:Enter a number:19
 Happy Number
+14.Peterson number:
+n=int(input("Enter a number:"))
+temp=n
+while n>0:
+  digit =n%10
+  fact=1
+  for i in range(1,digit+1):
+    fact=fact+i
+    sum = sum
+  n = n//10
+if sum==temp:
+  print(" Not a Peterson Number")
+else:
+  print("Peterson Number")
+O/P:Enter a number:145
+Peterson Number
+
