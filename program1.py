@@ -122,3 +122,18 @@ else:
   print("Not a Duck num")
 O/P:Enter a number:1023
 Duck num
+13.Happy number:
+n=int(input("Enter a number:"))
+while n!=1 and n!=4:
+  sum=0
+  while n>0:
+    digit=n%10
+    sum=sum+digit+digit
+    n=n//10
+  n=sum
+if n==1:
+  print("Not a Happy Number")
+else:
+  print("Happy Number")
+O/P:Enter a number:19
+Happy Number
